@@ -9,14 +9,14 @@ const FrameComponent: FunctionComponent<FrameComponentType> = ({
 }) => {
   return (
     <div
-      className={`w-[351px] h-[489px] flex flex-col items-center justify-start text-right text-sm text-black font-inter ${className}`}
+      className={`w-[351px] h-[489px] flex flex-col items-center justify-start relative text-right text-sm text-black font-inter ${className}`}
     >
       <img
-        className="w-[351px] relative rounded-md h-[284px] object-cover"
+        className="w-[351px] relative rounded-md h-[284px] object-cover z-[0]"
         alt=""
         src="/image40@2x.png"
       />
-      <div className="w-[302px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-white flex flex-col items-end justify-start pt-10 px-2.5 pb-[15px] box-border gap-[10px] mt-[-140px]">
+      <div className="w-[302px] !m-[0] absolute top-[144px] left-[24.5px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-white flex flex-col items-end justify-start pt-10 px-2.5 pb-[15px] box-border gap-[10px] z-[1]">
         <div className="self-stretch flex flex-col items-end justify-center gap-[10px]">
           <p className="m-0 self-stretch relative leading-[27px]">{`دسته `}</p>
           <h3 className="m-0 self-stretch relative text-5xl leading-[27px] font-semibold font-inherit">

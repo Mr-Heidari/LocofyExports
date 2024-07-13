@@ -61,7 +61,7 @@ const UserComments: FunctionComponent<UserCommentsType> = ({
           <img
             className="w-3.5 relative h-[15px] object-cover"
             alt=""
-            src="/image31@2x.png"
+            src="/image311@2x.png"
           />
           <img
             className="w-[19px] relative h-[15px] object-cover"

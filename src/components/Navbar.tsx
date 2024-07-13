@@ -16,7 +16,7 @@ const Navbar: FunctionComponent<NavbarType> = ({ className = "" }) => {
         <a className="[text-decoration:none] relative font-semibold text-[inherit]">{`درباره ما `}</a>
       </div>
       <div className="flex flex-row items-center justify-start gap-[30px] text-xl text-darkslategray">
-        <div className="flex flex-row items-center justify-center py-0 px-3 gap-[50px] sm:hidden">
+        <div className="flex flex-row items-center justify-center py-0 px-3 gap-[50px] sm:hidden md:hidden">
           <a className="[text-decoration:none] relative leading-[8px] font-medium text-[inherit]">
             بلاگ
           </a>
@@ -34,7 +34,7 @@ const Navbar: FunctionComponent<NavbarType> = ({ className = "" }) => {
           </a>
         </div>
         <img
-          className="w-px relative h-[38px] object-cover sm:hidden"
+          className="w-px relative h-[38px] object-cover sm:hidden md:hidden"
           alt=""
           src="/image2@2x.png"
         />
@@ -49,7 +49,7 @@ const Navbar: FunctionComponent<NavbarType> = ({ className = "" }) => {
             className="w-[19px] relative h-[18px] object-cover"
             id="categories"
             alt=""
-            src="/image@2x.png"
+            src="/image3@2x.png"
           />
         </div>
       </div>

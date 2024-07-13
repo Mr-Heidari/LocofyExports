@@ -30,9 +30,9 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
             />
           </div>
           <div className="self-stretch flex flex-row items-center justify-center gap-[23px]">
-            <a className="[text-decoration:none] w-[18px] relative h-[18px] bg-[url('/public/image1@3x.png')] bg-cover bg-no-repeat bg-[top]" />
-            <a className="[text-decoration:none] w-[18px] relative h-[15px] bg-[url('/public/image2@3x.png')] bg-cover bg-no-repeat bg-[top]" />
-            <a className="[text-decoration:none] w-[18px] relative h-3.5 bg-[url('/public/image3@3x.png')] bg-cover bg-no-repeat bg-[top]" />
+            <a className="[text-decoration:none] w-[18px] relative h-[18px] bg-[url('/public/image110@3x.png')] bg-cover bg-no-repeat bg-[top]" />
+            <a className="[text-decoration:none] w-[18px] relative h-[15px] bg-[url('/public/image210@3x.png')] bg-cover bg-no-repeat bg-[top]" />
+            <a className="[text-decoration:none] w-[18px] relative h-3.5 bg-[url('/public/image310@3x.png')] bg-cover bg-no-repeat bg-[top]" />
           </div>
         </div>
         <div className="w-[69px] flex flex-col items-start justify-center gap-[21px] text-base">

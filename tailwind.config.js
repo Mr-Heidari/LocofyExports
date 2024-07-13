@@ -64,6 +64,9 @@ module.exports = {
       inherit: "inherit",
     },
     screens: {
+      md: {
+        raw: "screen and (max-width: 720px)",
+      },
       sm: {
         max: "420px",
       },

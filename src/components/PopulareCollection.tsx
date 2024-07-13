@@ -18,7 +18,7 @@ const PopulareCollection: FunctionComponent<PopulareCollectionType> = ({
         <img
           className="w-[108px] relative h-[15px] object-cover"
           alt=""
-          src="/image3@2x.png"
+          src="/image31@2x.png"
         />
       </div>
       <div className="self-stretch flex flex-row items-start justify-center gap-[35px] text-base-4">

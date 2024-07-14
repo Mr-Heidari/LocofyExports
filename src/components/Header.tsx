@@ -40,7 +40,7 @@ const Header: FunctionComponent<HeaderType> = ({ className = "" }) => {
           </h1>
         </div>
         <img
-          className="w-[77px] relative h-[73px] object-cover"
+          className="h-[73px] w-[77px] relative object-cover bg-[red]"
           alt=""
           src="/image1@2x.png"
         />

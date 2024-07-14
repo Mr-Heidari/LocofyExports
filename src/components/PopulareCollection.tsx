@@ -89,9 +89,9 @@ const PopulareCollection: FunctionComponent<PopulareCollectionType> = ({
             </p>
           </div>
           <img
-            className="absolute top-[129px] left-[99px] w-[73px] h-[51px] overflow-hidden object-cover"
+            className="absolute right-[111px] bottom-[-15px] w-[61px] h-[51px] object-cover"
             alt=""
-            src="/frame@2x.png"
+            src="/image9@2x.png"
           />
         </div>
         <img

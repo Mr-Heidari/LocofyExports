@@ -18,7 +18,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
             آدرس ایمیل خود را برای ثبت نام در اشتراک خبرنامه ما وارد كنيد
           </p>
           <div className="flex flex-row items-center justify-center gap-[10px]">
-            <button className="cursor-pointer [border:none] p-2.5 bg-darkorange w-[138px] rounded-3xs h-[53px] flex flex-row items-center justify-center box-border">
+            <button className="cursor-pointer [border:none] p-2.5 bg-darkorange h-[53px] w-[138px] rounded-3xs flex flex-row items-center justify-center box-border">
               <div className="relative text-base leading-[25px] font-semibold font-inter text-white text-right">
                 ارسال
               </div>
@@ -39,10 +39,10 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
           <h3 className="m-0 self-stretch relative text-xl font-semibold font-inherit">
             لینک ها
           </h3>
-          <a className="[text-decoration:none] self-stretch relative text-[inherit]">
+          <a className="[text-decoration:none] self-stretch relative text-[inherit] cursor-pointer">
             مخاطبین
           </a>
-          <a className="[text-decoration:none] self-stretch relative text-[inherit]">
+          <a className="[text-decoration:none] self-stretch relative text-[inherit] cursor-pointer">
             دانش نامه
           </a>
         </div>
@@ -50,10 +50,10 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
           <h3 className="m-0 self-stretch relative text-xl font-semibold font-inherit">
             آکادمی ارزش
           </h3>
-          <p className="m-0 self-stretch relative">درباره ما</p>
+          <p className="m-0 self-stretch relative cursor-pointer">درباره ما</p>
           <p className="m-0 self-stretch relative">دوره ها</p>
-          <p className="m-0 self-stretch relative">اساتيد</p>
-          <p className="m-0 self-stretch relative">رويدادها</p>
+          <p className="m-0 self-stretch relative cursor-pointer">اساتيد</p>
+          <p className="m-0 self-stretch relative cursor-pointer">رويدادها</p>
         </div>
         <div className="flex flex-col items-end justify-center gap-[10px] text-dodgerblue-100">
           <div className="w-[255px] flex flex-row items-start justify-between">

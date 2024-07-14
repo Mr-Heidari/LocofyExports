@@ -21,11 +21,11 @@ const TopCourses: FunctionComponent<TopCoursesType> = ({ className = "" }) => {
       </div>
       <div className="self-stretch flex flex-row items-center justify-between py-0 px-[50px] text-4xl-9">
         <img
-          className="w-[51px] relative h-[51px] object-cover"
+          className="w-[51px] relative h-[51px] object-cover hover:cursor-pointer hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]"
           alt=""
           src="/leftarrowbutton@2x.png"
         />
-        <div className="flex-1 flex flex-row flex-wrap items-center justify-center gap-[180px]">
+        <div className="flex-1 flex flex-row flex-wrap items-center justify-center gap-[180px] hover:cursor-pointer">
           <img
             className="w-[329px] relative h-[304px] object-cover"
             alt=""
@@ -66,7 +66,7 @@ const TopCourses: FunctionComponent<TopCoursesType> = ({ className = "" }) => {
           </div>
         </div>
         <img
-          className="w-12 relative h-12 object-cover"
+          className="w-12 relative h-12 object-cover hover:cursor-pointer"
           alt=""
           src="/rightarrowbutton@2x.png"
         />

@@ -9,7 +9,7 @@ const CoursesCard: FunctionComponent<CoursesCardType> = ({
 }) => {
   return (
     <div
-      className={`w-[313px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-white h-[450px] flex flex-col items-center justify-start gap-[10px] text-left text-base text-white font-inter ${className}`}
+      className={`h-[450px] w-[313px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-white flex flex-col items-center justify-start gap-[10px] cursor-pointer text-left text-base text-white font-inter ${className}`}
     >
       <div className="w-[313px] h-[213px] flex flex-col items-end justify-start py-[9px] px-[16.5px] box-border bg-[url('/public/frame-100@3x.png')] bg-cover bg-no-repeat bg-[top]">
         <div className="bg-darkorange flex flex-row items-center justify-center py-2 px-2.5 gap-[8px]">

@@ -23,11 +23,11 @@ const PopulareCollection: FunctionComponent<PopulareCollectionType> = ({
       </div>
       <div className="self-stretch flex flex-row items-start justify-center gap-[35px] text-base-4">
         <img
-          className="w-[66px] relative rounded-tl-none rounded-tr-10xs rounded-br-10xs rounded-bl-none h-40 object-cover"
+          className="h-40 w-[66px] relative rounded-tl-none rounded-tr-10xs rounded-br-10xs rounded-bl-none object-cover cursor-pointer"
           alt=""
           src="/frame-32@2x.png"
         />
-        <div className="w-[278px] h-[227px] flex flex-col items-center justify-start gap-[17px]">
+        <div className="h-[227px] w-[278px] flex flex-col items-center justify-start gap-[17px] cursor-pointer">
           <img
             className="w-[278px] relative h-[170px] object-cover"
             alt=""
@@ -43,7 +43,7 @@ const PopulareCollection: FunctionComponent<PopulareCollectionType> = ({
             </p>
           </div>
         </div>
-        <div className="w-[271px] h-[227px] flex flex-col items-center justify-start gap-[11px] text-center text-sm-9">
+        <div className="h-[227px] w-[271px] flex flex-col items-center justify-start gap-[11px] cursor-pointer text-center text-sm-9">
           <div className="w-[271px] h-[172px] overflow-hidden shrink-0 flex flex-col items-center justify-start">
             <img
               className="w-[271px] relative h-40 object-cover"
@@ -61,7 +61,7 @@ const PopulareCollection: FunctionComponent<PopulareCollectionType> = ({
             <p className="m-0 self-stretch relative leading-[22px]"> 1 درس</p>
           </div>
         </div>
-        <div className="w-[271px] relative h-[178px] text-sm-1">
+        <div className="h-[178px] w-[271px] relative cursor-pointer text-sm-1">
           <div className="absolute top-[187px] left-[103px] w-[61px] flex flex-col items-center justify-start">
             <p className="m-0 self-stretch relative leading-[20px]">{`Full Stack `}</p>
             <p className="m-0 self-stretch relative leading-[20px] text-center">
@@ -81,7 +81,7 @@ const PopulareCollection: FunctionComponent<PopulareCollectionType> = ({
             />
           </div>
         </div>
-        <div className="w-[271px] relative h-[165px] bg-[url('/public/frame-34@3x.png')] bg-cover bg-no-repeat bg-[top]">
+        <div className="h-[165px] w-[271px] relative bg-[url('/public/frame-34@3x.png')] bg-cover bg-no-repeat bg-[top] cursor-pointer">
           <div className="absolute top-[189px] left-[59px] w-[141px] flex flex-col items-center justify-start">
             <p className="m-0 self-stretch relative leading-[24px]">{`Mobile Application `}</p>
             <p className="m-0 self-stretch relative leading-[24px] text-center">
@@ -95,7 +95,7 @@ const PopulareCollection: FunctionComponent<PopulareCollectionType> = ({
           />
         </div>
         <img
-          className="w-[110px] relative rounded-t-none rounded-br-none rounded-bl-10xs h-[166px] object-cover"
+          className="h-[166px] w-[110px] relative rounded-t-none rounded-br-none rounded-bl-10xs object-cover cursor-pointer"
           alt=""
           src="/frame-35@2x.png"
         />

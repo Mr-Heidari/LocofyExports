@@ -22,7 +22,7 @@ const TopTeachers: FunctionComponent<TopTeachersType> = ({
         />
       </div>
       <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[14px] text-center text-base-2">
-        <div className="w-[296px] bg-gray-200 h-[322px] flex flex-col items-center justify-end gap-[21px] text-base-9">
+        <div className="h-[322px] w-[296px] bg-gray-200 flex flex-col items-center justify-end gap-[21px] cursor-pointer text-base-9">
           <img
             className="w-64 relative rounded-6xs h-[227px] object-cover"
             alt=""
@@ -32,7 +32,7 @@ const TopTeachers: FunctionComponent<TopTeachersType> = ({
             نام استاد تخصص
           </p>
         </div>
-        <div className="w-[296px] bg-gray-200 h-[322px] flex flex-col items-center justify-end gap-[21px]">
+        <div className="h-[322px] w-[296px] bg-gray-200 flex flex-col items-center justify-end gap-[21px] cursor-pointer">
           <img
             className="w-64 relative rounded-6xs h-[227px] object-cover"
             alt=""
@@ -42,7 +42,7 @@ const TopTeachers: FunctionComponent<TopTeachersType> = ({
             نام استاد تخصص
           </p>
         </div>
-        <div className="w-[296px] bg-gray-200 h-[322px] flex flex-col items-center justify-end gap-[21px]">
+        <div className="h-[322px] w-[296px] bg-gray-200 flex flex-col items-center justify-end gap-[21px] cursor-pointer">
           <img
             className="w-64 relative rounded-6xs h-[227px] object-cover"
             alt=""
@@ -52,7 +52,7 @@ const TopTeachers: FunctionComponent<TopTeachersType> = ({
             نام استاد تخصص
           </p>
         </div>
-        <div className="w-[296px] bg-gray-200 h-[322px] flex flex-col items-center justify-end gap-[21px]">
+        <div className="h-[322px] w-[296px] bg-gray-200 flex flex-col items-center justify-end gap-[21px] cursor-pointer">
           <img
             className="w-64 relative rounded-6xs h-[227px] object-cover"
             alt=""

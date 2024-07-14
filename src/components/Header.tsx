@@ -11,12 +11,12 @@ const Header: FunctionComponent<HeaderType> = ({ className = "" }) => {
     >
       <div className="flex-1 flex flex-row items-center justify-start gap-[40px]">
         <div className="flex flex-row items-center justify-center gap-[20px]">
-          <a className="[text-decoration:none] relative leading-[8px] font-semibold text-[inherit]">{`ثبت نام `}</a>
-          <a className="[text-decoration:none] relative leading-[8px] font-semibold text-[inherit]">
+          <a className="[text-decoration:none] relative leading-[8px] font-semibold text-[inherit] hover:cursor-pointer hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]">{`ثبت نام `}</a>
+          <a className="[text-decoration:none] relative leading-[8px] font-semibold text-[inherit] hover:cursor-pointer hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]">
             ورود
           </a>
         </div>
-        <div className="rounded-3xs flex flex-row items-center justify-center py-[15px] px-2.5 gap-[10px] border-[1px] border-solid border-dimgray-300 sm:hidden">
+        <div className="rounded-3xs flex flex-row items-center justify-center py-[15px] px-2.5 gap-[10px] border-[1px] border-solid border-dimgray-300 sm:flex">
           <img
             className="w-[19px] relative h-[19px] object-cover"
             alt=""

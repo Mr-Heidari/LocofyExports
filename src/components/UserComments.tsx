@@ -31,7 +31,7 @@ const UserComments: FunctionComponent<UserCommentsType> = ({
             </div>
           </p>
         </div>
-        <div className="w-[161px] bg-darkorange h-[63px] flex flex-col items-center justify-center text-base text-white">
+        <div className="w-[161px] h-[63px] bg-darkorange flex flex-col items-center justify-center cursor-pointer text-base text-white">
           <div className="relative font-semibold">مشاهده همه</div>
         </div>
       </div>

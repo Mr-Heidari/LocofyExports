@@ -51,7 +51,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
             آکادمی ارزش
           </h3>
           <p className="m-0 self-stretch relative cursor-pointer">درباره ما</p>
-          <p className="m-0 self-stretch relative">دوره ها</p>
+          <p className="m-0 self-stretch relative cursor-pointer">دوره ها</p>
           <p className="m-0 self-stretch relative cursor-pointer">اساتيد</p>
           <p className="m-0 self-stretch relative cursor-pointer">رويدادها</p>
         </div>

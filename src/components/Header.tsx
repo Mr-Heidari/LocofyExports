@@ -11,8 +11,8 @@ const Header: FunctionComponent<HeaderType> = ({ className = "" }) => {
     >
       <div className="flex-1 flex flex-row items-center justify-start gap-[40px]">
         <div className="flex flex-row items-center justify-center gap-[20px]">
-          <a className="[text-decoration:none] relative leading-[8px] font-semibold text-[inherit] hover:cursor-pointer hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]">{`ثبت نام `}</a>
-          <a className="[text-decoration:none] relative leading-[8px] font-semibold text-[inherit] hover:cursor-pointer hover:animate-[1s_ease_0s_1_normal_none_scale-up] hover:opacity-[1]">
+          <a className="[text-decoration:none] relative leading-[8px] font-semibold text-[inherit] cursor-pointer">{`ثبت نام `}</a>
+          <a className="[text-decoration:none] relative leading-[8px] font-semibold text-[inherit] cursor-pointer">
             ورود
           </a>
         </div>
@@ -40,7 +40,7 @@ const Header: FunctionComponent<HeaderType> = ({ className = "" }) => {
           </h1>
         </div>
         <img
-          className="h-[73px] w-[77px] relative object-cover bg-[red]"
+          className="h-[73px] w-[77px] relative object-cover"
           alt=""
           src="/image1@2x.png"
         />

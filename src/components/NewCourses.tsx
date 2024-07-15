@@ -11,7 +11,7 @@ const NewCourses: FunctionComponent<NewCoursesType> = ({ className = "" }) => {
       className={`self-stretch overflow-hidden flex flex-col items-center justify-center py-[50px] px-0 gap-[10px] text-left text-xl text-dodgerblue-100 font-inter border-b-[1px] border-solid border-silver ${className}`}
     >
       <div className="self-stretch flex flex-row items-center justify-between py-0 px-[100px]">
-        <a className="[text-decoration:none] w-[123px] relative font-semibold text-[inherit] inline-block h-5 shrink-0 hover:cursor-pointer">
+        <a className="[text-decoration:none] h-5 w-[123px] relative font-semibold text-[inherit] inline-block shrink-0 cursor-pointer">
           مشاهده همه
         </a>
         <div className="flex flex-col items-center justify-center gap-[20px] text-11xl text-black">

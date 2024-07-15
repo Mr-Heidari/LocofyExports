@@ -104,7 +104,7 @@ const PopulareCollection: FunctionComponent<PopulareCollectionType> = ({
         <img
           className="w-2.5 relative h-2.5 object-cover"
           alt=""
-          src="/image9@2x.png"
+          src="/image91@2x.png"
         />
         <img
           className="w-2.5 relative h-2.5 object-cover"
